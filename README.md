@@ -1,16 +1,25 @@
-## Hi there 👋
+# Hi, I’m Hercules Keung 👋
 
-<!--
-**Hercules03/Hercules03** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**AI Engineer & IT Auditor** building intelligent systems and ensuring security compliance
 
-Here are some ideas to get you started:
+## What I Do
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🤖 **AI Development**: RAG chatbots, computer vision, ML systems (Python, FastAPI, Azure AI)
+- 🔐 **IT Audit**: Information security assessments at KPMG China (CISA-focused)
+
+## Tech Stack
+
+**AI/ML**: PyTorch, TensorFlow, LangChain, Azure OpenAI  
+**Backend**: Python, FastAPI, MongoDB, Docker  
+**Cloud**: AWS, Azure
+
+## Highlights
+
+🏆 AWS Hong Kong AI Hackathon 2025  
+🎓 Intelligent Manufacturing Engineering @ CityU  
+
+📫 **Let’s connect**: [LinkedIn](https://www.linkedin.com/in/hercules-keung-704b28239) | 📧 herculeskeung@gmail.com
+
+-----
+
+*Building AI solutions that bridge education, security, and innovation*
