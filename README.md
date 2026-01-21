@@ -9,9 +9,9 @@
 
 ## Tech Stack
 
-**AI/ML**: PyTorch, TensorFlow, LangChain, Azure OpenAI  
+**AI/ML**: PyTorch, scikit-learn, LangChain, Langgraph
 **Backend**: Python, FastAPI, MongoDB, Docker  
-**Cloud**: AWS, Azure
+**Cloud**: AWS
 
 ## Highlights
 
