@@ -15,8 +15,9 @@
 
 ## Highlights
 
-🏆 AWS Hong Kong AI Hackathon 2025  
-🎓 Intelligent Manufacturing Engineering @ CityU  
+AWS Hong Kong AI Hackathon 2025 
+Cathay Pacific Hackathon 2024
+Intelligent Manufacturing Engineering @ CityU  
 
 📫 **Let’s connect**: [LinkedIn](https://www.linkedin.com/in/hercules-keung-704b28239) | 📧 herculeskeung@gmail.com
 
