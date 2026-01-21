@@ -4,7 +4,7 @@
 
 ## What I Do
 
-- 🤖 **AI Development**: RAG chatbots, computer vision, ML systems (Python, FastAPI, Azure AI)
+- 🤖 **AI Development**: RAG chatbots, computer vision, ML systems (Python, FastAPI, Langchain)
 - 🔐 **IT Audit**: Information security assessments at KPMG China (CISA-focused)
 
 ## Tech Stack
