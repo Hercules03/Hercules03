@@ -1,6 +1,6 @@
 <div align="center">
 
-# Keung Yat Long (Hercules)
+# Hercules KEUNG
 ### Red Teaming Consultant & Hardware/AI System Builder
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=00FF66&center=true&vCenter=true&width=620&lines=%24+whoami;Hercules+Keung;%24+cat+%2Fproc%2Fsys%2Fkernel%2Ffocus;Offensive+Security+%7C+Mobile+Pentest+%7C+AI+R%26D;%24+nmap+-sS+-Pn+target_perimeter;Full-Scope+Adversary+Simulation+Active)](https://git.io/typing-svg)
