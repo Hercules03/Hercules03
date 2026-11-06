@@ -98,17 +98,15 @@ flowchart LR
 
 <div align="center">
   <a href="https://github.com/Hercules03">
-    <!-- Main Stats Card -->
-    <img src="https://github-readme-stats.vercel.app/api?username=Hercules03&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FF66&text_color=c9d1d9&icon_color=00FF66" width="48%" alt="GitHub Stats" />
-    
-    <!-- Streak Stats Card (Working) -->
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Hercules03&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FF66&text_color=c9d1d9&icon_color=00FF66" width="48%" alt="GitHub Stats" />
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hercules03&theme=tokyonight&hide_border=true&background=0d1117&ring=00FF66&fire=00FF66&currStreakLabel=00FF66" width="48%" alt="GitHub Streak" />
   </a>
 </div>
 
+<br/>
+
 <div align="center">
-  <!-- Top Languages Card -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hercules03&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FF66&text_color=c9d1d9" alt="Top Languages" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Hercules03&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FF66&text_color=c9d1d9" alt="Top Languages" />
 </div>
 
 ---
