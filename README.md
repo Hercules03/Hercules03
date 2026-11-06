@@ -22,7 +22,7 @@ From foundational infrastructure and algorithmic pedagogy to enterprise risk gov
 
 ```mermaid
 flowchart LR
-    A["IT Support<br/><b>Infrastructure & Ops</b>"] --> B["STEM Coach<br/><b>Algorithmic Pedagogy</b>"]
+    A["IT Support<br/><b>Infrastructure & Ops</b>"] --> B["STEM Coach<br/><b>AI & Robotics</b>"]
     B --> C["R&D & AI-Driven testing<br/><b>Train Simulation System</b>"]
     C --> D["IT Audit<br/><b>Risk & ISACA Governance</b>"]
     D --> E["Red Team Pentester<br/><b>Adversarial Simulation</b>"]
