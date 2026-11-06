@@ -46,7 +46,7 @@ flowchart LR
 
 [SYSTEMS & INTELLIGENCE]
 |-- Core Development  -- Python (uv / FastAPI / SQLAlchemy) -- C/C++ -- Bash
-|-- AI & Data Science -- Classical ML (Scikit-Learn / KNN / K-Means) -- Pandas -- OpenCV
+|-- AI & Data Science -- Langchain/LangGraph -- DL (Pytorch) -- ML (Scikit-learn) -- OpenCV -- Pandas
 `-- Embedded / IoT    -- ESP32-S3 -- MicroPython -- ROS -- FreeRTOS -- Hardware Modding
 ```
 
