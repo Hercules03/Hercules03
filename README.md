@@ -68,11 +68,7 @@ flowchart LR
 * **Target Vectors**: Android application reverse engineering, dynamic memory hook injections via Frida, and TLS unpinning bypasses.
 * **Security Automation**: LLM-assisted penetration testing tooling, automated vulnerability verification pipelines, and network packet monitoring micro-labs.
 
-### 02. AI-Driven Edge & Educational Robotics (ORZAI / AICube)
-* **Architecture**: Modular 3D-printed robotics platform powered by an **ESP32-S3** microcontroller.
-* **Software Core**: Block-based machine learning compiler, interactive simulation environments, and local AI agent dialogues.
-
-### 03. High-Performance Tooling & Workflows
+### 02. High-Performance Tooling & Workflows
 * **Microservices**: High-performance Python package architectures utilizing ultra-fast `uv` workspace environments.
 * **Autonomous Workflows**: Mission Control dashboards enforcing pre-development architecture gates and event-driven automation bots.
 
