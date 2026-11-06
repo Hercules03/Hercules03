@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hercules KEUNG
+# Keung Yat Long (Hercules)
 ### Red Teaming Consultant & Hardware/AI System Builder
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=00FF66&center=true&vCenter=true&width=620&lines=%24+whoami;Hercules+Keung;%24+cat+%2Fproc%2Fsys%2Fkernel%2Ffocus;Offensive+Security+%7C+Mobile+Pentest+%7C+AI+R%26D;%24+nmap+-sS+-Pn+target_perimeter;Full-Scope+Adversary+Simulation+Active)](https://git.io/typing-svg)
@@ -18,12 +18,12 @@
 
 ## Career Trace & Evolution
 
-From foundational infrastructure and algorithmic pedagogy to risk governance and adversarial exploitation.
+From foundational infrastructure and algorithmic pedagogy to enterprise risk governance and adversarial offensive security.
 
 ```mermaid
 flowchart LR
     A["IT Support<br/><b>Infrastructure & Ops</b>"] --> B["STEM Coach<br/><b>Algorithmic Pedagogy</b>"]
-    B --> C["R&D & Automated Testing<br/><b>Signaling Systems</b>"]
+    B --> C["R&D & Robotics<br/><b>Embedded & IoT Systems</b>"]
     C --> D["IT Audit<br/><b>Risk & ISACA Governance</b>"]
     D --> E["Red Team Pentester<br/><b>Adversarial Simulation</b>"]
 
@@ -40,14 +40,14 @@ flowchart LR
 
 ```text
 [OFFENSIVE & SECURITY]
-├── Mobile Assessment ── Frida ── JADX ── ADB ── mitmproxy ── OWASP MASVS
-├── Network & Host    ── Kali Linux ── Burp Suite ── Metasploit ── Wireshark ── Nmap
-└── Low-Level/Kernel  ── Linux sk_buff ── Packet Analysis ── VMware Workstation
+|-- Mobile Assessment -- Frida -- JADX -- ADB -- mitmproxy -- OWASP MASVS
+|-- Network & Host    -- Kali Linux -- Burp Suite -- Metasploit -- Wireshark -- Nmap
+`-- Low-Level/Kernel  -- Linux sk_buff -- Packet Filtering -- VMware Workstation
 
 [SYSTEMS & INTELLIGENCE]
-├── Core Development  ── Python (uv / FastAPI / SQLAlchemy) ── C/C++ ── Bash
-├── AI & Data Science ── Classical ML (Scikit-Learn / KNN / K-Means) ── Pandas ── OpenCV
-└── Embedded / IoT    ── ESP32-S3 ── MicroPython ── ROS ── FreeRTOS ── Hardware Modding
+|-- Core Development  -- Python (uv / FastAPI / SQLAlchemy) -- C/C++ -- Bash
+|-- AI & Data Science -- Classical ML (Scikit-Learn / KNN / K-Means) -- Pandas -- OpenCV
+`-- Embedded / IoT    -- ESP32-S3 -- MicroPython -- ROS -- FreeRTOS -- Hardware Modding
 ```
 
 <p align="left">
@@ -65,16 +65,36 @@ flowchart LR
 ## Shipped Architecture & Mission Logs
 
 ### 01. Adversarial Simulation & Mobile Security
-* **Target Vectors**: Android application decompilation, TLS unpinning scripts, dynamic memory instrumentation using Frida runtime injection.
+* **Target Vectors**: Android application reverse engineering, dynamic memory hook injections via Frida, and TLS unpinning bypasses.
 * **Security Automation**: LLM-assisted penetration testing tooling, automated vulnerability verification pipelines, and network packet monitoring micro-labs.
 
 ### 02. AI-Driven Edge & Educational Robotics (ORZAI / AICube)
-* **Architecture**: Modular 3D-printed robotics platform powered by an **ESP32-S3** core.
-* **Software Core**: Block-based visual machine learning compiler, interactive simulation environments, and local AI agent dialogues.
+* **Architecture**: Modular 3D-printed robotics platform powered by an **ESP32-S3** microcontroller.
+* **Software Core**: Block-based machine learning compiler, interactive simulation environments, and local AI agent dialogues.
 
 ### 03. High-Performance Tooling & Workflows
-* **Microservices**: Python package architectures utilizing ultra-fast `uv` workspace environments.
-* **Autonomous Workflows**: Mission Control dashboards enforcing development architecture gates and event-driven automation bots.
+* **Microservices**: High-performance Python package architectures utilizing ultra-fast `uv` workspace environments.
+* **Autonomous Workflows**: Mission Control dashboards enforcing pre-development architecture gates and event-driven automation bots.
+
+---
+
+## Activity Telemetry & Threat Surface Grid
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hercules03/Hercules03/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hercules03/Hercules03/output/github-contribution-grid-snake.svg">
+    <img alt="Matrix Grid Snake" src="https://raw.githubusercontent.com/Hercules03/Hercules03/output/github-contribution-grid-snake-dark.svg" width="100%">
+  </picture>
+</div>
+
+<details>
+  <summary><b>Click to Inspect 3D Architecture Skyline</b></summary>
+  <br/>
+  <div align="center">
+    <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Skyline" width="100%">
+  </div>
+</details>
 
 ---
 
@@ -99,6 +119,6 @@ flowchart LR
 [EOF] - Initiating secure session logout... Connection verified.
 ```
 
-**[LinkedIn](https://www.linkedin.com/in/hercules-keung/)** • **[Email](mailto:herculeskeung03@gmail.com)** • **[GitHub](https://github.com/Hercules03)**
+**[LinkedIn]([https://www.linkedin.com/in/hercules-keung/](https://www.linkedin.com/in/hercules-keung-704b28239/))** | **[Email](mailto:herculeskeung@gmail.com)** | **[GitHub](https://github.com/Hercules03)**
 
 </div>
