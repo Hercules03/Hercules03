@@ -119,6 +119,6 @@ flowchart LR
 [EOF] - Initiating secure session logout... Connection verified.
 ```
 
-**[LinkedIn]([https://www.linkedin.com/in/hercules-keung/](https://www.linkedin.com/in/hercules-keung-704b28239/))** | **[Email](mailto:herculeskeung@gmail.com)** | **[GitHub](https://github.com/Hercules03)**
+**[LinkedIn]([[https://www.linkedin.com/in/hercules-keung/](https://www.linkedin.com/in/hercules-keung-704b28239/)](https://www.linkedin.com/in/hercules-keung-704b28239/))** | **[Email](mailto:herculeskeung@gmail.com)** | **[GitHub](https://github.com/Hercules03)**
 
 </div>
