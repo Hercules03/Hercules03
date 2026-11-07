@@ -1,9 +1,6 @@
 <div align="center">
 
-# Hercules KEUNG
-### Red Teaming Consultant & Hardware/AI System Builder
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=00FF66&center=true&vCenter=true&width=620&lines=%24+whoami;Hercules+Keung;%24+cat+%2Fproc%2Fsys%2Fkernel%2Ffocus;Offensive+Security+%7C+Mobile+Pentest+%7C+AI+R%26D;%24+nmap+-sS+-Pn+target_perimeter;Full-Scope+Adversary+Simulation+Active)](https://git.io/typing-svg)
+<img src="./assets/banner.svg" alt="Mission Terminal Profile" width="100%">
 
 <p align="center">
   <img src="https://img.shields.io/badge/CISSP-Certified-00E676?style=for-the-badge&logo=isc2&logoColor=black" alt="CISSP" />
@@ -12,9 +9,62 @@
   <img src="https://img.shields.io/badge/Location-Hong_Kong-0F172A?style=for-the-badge&logo=google-maps&logoColor=white" alt="Location" />
 </p>
 
+</div>
+
 ---
 
-</div>
+<details>
+<summary><b>System Scan: Halftone ASCII Identity Buffer</b></summary>
+
+```text
+@@@&@&@@&@&@&&&&@@&@@&&&&&&&&@&&&&&&@@&&@&@@@@&@&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@&@@&@@&@@&&@&@@@@&@&@@@@@@@@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+&@&@&&&&&@&@@@@@@@@@@@@@@@&&&@@@&@@@@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+&@@@@@&@@@&&&@@@@@@@&@@@@@&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@&@&&@&@@&&&@@@@@@@@@@@@@@@@@@@@@@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@&&&@@@@@@@@@@@@@@@@@@@@@&&&%%&@&##%%&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&&%%%#%&@@@&%&%%&@%&%&@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%&&%&@&@&@@&@%&&&#&&##%&&@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@&##@@%&&@@@&@@@@@@@&&@&@@&&%%@&@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@&#&&%&&&@@@@&%%#((#%&@&&&@@&&@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@%%&#%%&&@&&&%#(/***/(#&&&&@@@@&@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@&%%&%&@&&&&&&%(/*****/#%@@@@@@@@@&@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@&&&@%&&@@&&&&#&#*****&&@&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@%&@&@&@&(##&&&%%/*(&(#&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@&&@&*.,*(&&&&//*,,*//(//////(%@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@,%%,..,,,,*//**,,,*///(((###///@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@/,,,.....,,,,,.,,,*//*********/@(@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@,//,.....,,,**..,**/*/********/(/@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@,,,......,,,,***//(/***,****/(/(@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@,......***//((((//******/(%@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@....,,,,.,**///(///*//*/@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&,,,..,,,***/////////(@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@,,*,.,,,****////((#(/@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&,,,,,*/(########(((..%@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.,,,,.,*//(((((((....&&&&@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%.%,,,,,*//////.....,&&@&&&&@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#( .%,,,,****  .....&&&&&&&&&%%%@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@%%%%###&.   .(/**     ...*&&&&&&&&&&@&&&%%%&@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@#%%%%%%###%&&.   &##%     ...#&&&&&&&&&&&@&&&&&%%%%%%@@@@@@@@@@
+@@@@@@@@@@@@%%%%%%%%%&&%%%%%&/  (##%&&&@    .%&&&&&&&&&&@&&&&&&&&&&&%%%%%%@@@@@@
+@@@@@@@@@@%@%%%%%%%&&%%%%%%&&, **##&@@&#*,,.&&&&&&&&&&@&&&&&&&&&&&&&&&%&&&&&&&@@
+@@@@@@@@@@&%%%%%%%%%%%%%%%&@(    %%&@&,,.. %&&&&&&&&&&&&@&&&&&&&&&&&&&&&&&@@@@&@
+@@@@@@@@@#&%%%%%%%%%%%%%%%&&*.  /%%&@&,.  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&@@@@&&&@
+@@@@@@@@@%&%%%%%%%%%%%%%%%@(   #%%%&&&,. &&&&&&&&&&&&@&&&&&&&&&&&&&&&@@@@&&&&@@@
+@@@@@@@@%%&%%%%%%%%%%%%%%&@*  %#%%&&&&, &&&&&&&&&&&@&&&&&&&&&&&&&&&&&&@&&&&@@&&&
+@@@@@@@@#%&%%%%%%%%%%%%%%&&. .%%%&%%&#.&&&&&&&&&&&@&&&&&&&&&&&&&&&&@&@@@@@@&&&@&
+@@@@@@@&%%%@%%%%%%%%%%%%%&& .%%%%%%%%/%&&&&&&&&&@&&&&&&&&&&&&&&&&&&&&&&&@@@@@@&@
+@@@@@@@#%%&&##%%%%%%%%%%%&%./%%%#%%%@&&&&&&&&&&@&&&&&&&&&&&&@@@&&&&&&&&&&@@@@@@&
+@@@@@@@%%%&&&%%%%%%%%%%%%&&,%%%%&%%&&&&&&&&&&@&&&&&&&&@&&&&&@@&&&&&&&&@&@&@&@@&@
+@@@@@@@%&&&&@%%%%%%%%%%%%&@*%%%%&%%&&&&&&&&&@&&&&&&&@&&&&&&@@@&&&&&&&&@@@@&@@&@&
+@@@@@@%#%%&&@&%%%%%%%%%%%&@&%%%%%&%&&&&&&&@&&&&&&&&@@@&&@&@@@@&&&&&&&&&@&@@@@@@&
+@@@@@%%%%&&&&@%%%%%%%%%%%&@@&%&%%%&&&&&&&@&&&&&&&&&&&&@@@@@@@@@&&&&&&&@&&@@@@@@@
+@@@@@#%%&&&&@@&%%%%%%&%%%&@@&&&%%&&&&&&@@&&&&&&&&&&@&&@@@@@@@@&&&&&&&&&@@@@@@&@@
+```
+
+</details>
+
+---
 
 ## Career Trace & Evolution
 
@@ -22,8 +72,8 @@ From foundational infrastructure and algorithmic pedagogy to enterprise risk gov
 
 ```mermaid
 flowchart LR
-    A["IT Support<br/><b>Infrastructure & Ops</b>"] --> B["STEM Coach<br/><b>AI & Robotics</b>"]
-    B --> C["R&D & AI-Driven testing<br/><b>Train Simulation System</b>"]
+    A["IT Support<br/><b>Infrastructure & Ops</b>"] --> B["STEM Coach<br/><b>Algorithmic Pedagogy</b>"]
+    B --> C["R&D & Robotics<br/><b>Embedded & IoT Systems</b>"]
     C --> D["IT Audit<br/><b>Risk & ISACA Governance</b>"]
     D --> E["Red Team Pentester<br/><b>Adversarial Simulation</b>"]
 
@@ -46,7 +96,7 @@ flowchart LR
 
 [SYSTEMS & INTELLIGENCE]
 |-- Core Development  -- Python (uv / FastAPI / SQLAlchemy) -- C/C++ -- Bash
-|-- AI & Data Science -- Langchain/LangGraph -- DL (Pytorch) -- ML (Scikit-learn) -- OpenCV -- Pandas
+|-- AI & Data Science -- Classical ML (Scikit-Learn / KNN / K-Means) -- Pandas -- OpenCV
 `-- Embedded / IoT    -- ESP32-S3 -- MicroPython -- ROS -- FreeRTOS -- Hardware Modding
 ```
 
@@ -68,7 +118,11 @@ flowchart LR
 * **Target Vectors**: Android application reverse engineering, dynamic memory hook injections via Frida, and TLS unpinning bypasses.
 * **Security Automation**: LLM-assisted penetration testing tooling, automated vulnerability verification pipelines, and network packet monitoring micro-labs.
 
-### 02. High-Performance Tooling & Workflows
+### 02. AI-Driven Edge & Educational Robotics (ORZAI / AICube)
+* **Architecture**: Modular 3D-printed robotics platform powered by an **ESP32-S3** microcontroller.
+* **Software Core**: Block-based machine learning compiler, interactive simulation environments, and local AI agent dialogues.
+
+### 03. High-Performance Tooling & Workflows
 * **Microservices**: High-performance Python package architectures utilizing ultra-fast `uv` workspace environments.
 * **Autonomous Workflows**: Mission Control dashboards enforcing pre-development architecture gates and event-driven automation bots.
 
@@ -98,17 +152,8 @@ flowchart LR
 
 <div align="center">
   <a href="https://github.com/Hercules03">
-    <!-- Streak card (working reliably) -->
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hercules03&theme=tokyonight&hide_border=true&background=0d1117&ring=00FF66&fire=00FF66&currStreakLabel=00FF66" width="48%" alt="GitHub Streak" />
-    <!-- Compact Stats alternative -->
-    <img src="https://github-readme-stats.vercel.app/api?username=Hercules03&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FF66&text_color=c9d1d9&icon_color=00FF66&cache_seconds=1800" width="48%" alt="GitHub Stats" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hercules03&theme=tokyonight&hide_border=true&background=0d1117&ring=00FF66&fire=00FF66&currStreakLabel=00FF66" width="60%" alt="GitHub Streak" />
   </a>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hercules03&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FF66&text_color=c9d1d9&cache_seconds=1800" alt="Top Languages" />
 </div>
 
 ---

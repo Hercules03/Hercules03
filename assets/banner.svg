@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+  <defs>
+    <style>
+      500;700&display=swap');
+      .term-text { font-family: 'Fira Code', monospace; font-size: 13px; fill: #8b949e; }
+      .term-key { fill: #58a6ff; font-weight: 500; }
+      .term-val { fill: #c9d1d9; }
+      .term-highlight { fill: #00FF66; font-weight: 700; }
+      .term-title { font-family: 'Fira Code', monospace; font-size: 13px; fill: #8b949e; }
+      .hud-border { stroke: #30363d; stroke-width: 1; fill: none; }
+      .hud-reticle { stroke: #00FF66; stroke-width: 1.5; fill: none; }
+      .cursor {
+        animation: blink 1s infinite;
+      }
+      @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <!-- Terminal Window Background -->
+  <rect x="5" y="5" width="950" height="410" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- macOS Top Window Bar -->
+  <rect x="5" y="5" width="950" height="38" rx="10" fill="#161b22" />
+  <rect x="5" y="33" width="950" height="10" fill="#161b22" />
+  <line x1="5" y1="43" x2="955" y2="43" stroke="#30363d" stroke-width="1" />
+
+  <!-- Traffic Lights -->
+  <circle cx="28" cy="24" r="6" fill="#ff5f56" />
+  <circle cx="48" cy="24" r="6" fill="#ffbd2e" />
+  <circle cx="68" cy="24" r="6" fill="#27c93f" />
+
+  <!-- Window Header Title -->
+  <text x="480" y="28" text-anchor="middle" class="term-title">hercules@redops: ~/profile.sh (zsh) — live</text>
+
+  <!-- LEFT PANEL: Visual Identity & Telemetry Radar -->
+  <rect x="35" y="65" width="300" height="325" rx="4" fill="#090d13" class="hud-border" />
+  
+  <!-- HUD Corner Crosshairs -->
+  <path d="M 45 85 L 45 75 L 55 75" class="hud-reticle" />
+  <path d="M 325 85 L 325 75 L 315 75" class="hud-reticle" />
+  <path d="M 45 370 L 45 380 L 55 380" class="hud-reticle" />
+  <path d="M 325 370 L 325 380 L 315 380" class="hud-reticle" />
+
+  <!-- Left Panel Header Info -->
+  <text x="50" y="95" class="term-text" style="font-size: 10px; fill: #58a6ff;">[TARGET.ID: HK-03]</text>
+  <text x="260" y="95" class="term-text" style="font-size: 10px; fill: #00FF66;">SCAN_OK</text>
+
+  <!-- Telemetry Scan Matrix -->
+  <g transform="translate(50, 120)">
+    <circle cx="117" cy="90" r="70" fill="none" stroke="#21262d" stroke-width="1.5" stroke-dasharray="4,4" />
+    <circle cx="117" cy="90" r="45" fill="none" stroke="#30363d" stroke-width="1" />
+    <circle cx="117" cy="90" r="20" fill="none" stroke="#00FF66" stroke-width="1" opacity="0.6" />
+    <line x1="117" y1="10" x2="117" y2="170" stroke="#21262d" stroke-width="1" />
+    <line x1="37" y1="90" x2="197" y2="90" stroke="#21262d" stroke-width="1" />
+
+    <text x="117" y="94" text-anchor="middle" class="term-highlight" style="font-size: 11px;">TARGET LOCKED</text>
+  </g>
+
+  <!-- Target Specs Footer -->
+  <text x="50" y="335" class="term-text" style="font-size: 10px; fill: #8b949e;">SECTOR: OFFENSIVE ENGAGEMENT</text>
+  <text x="50" y="355" class="term-text" style="font-size: 10px; fill: #00FF66;">INTEGRITY: 100% VERIFIED</text>
+
+  <!-- RIGHT PANEL: Operational System Spec -->
+  <g transform="translate(365, 75)">
+    <text x="0" y="20" class="term-key" style="font-size: 14px;">[ SYSTEM_SPECS & TELEMETRY ]</text>
+    <text x="400" y="20" class="term-highlight" style="font-size: 11px;">AUTH: ROOT</text>
+    <line x1="0" y1="30" x2="550" y2="30" stroke="#30363d" stroke-width="1" />
+
+    <text x="0" y="60" class="term-text"><tspan class="term-key">Subject</tspan></text>
+    <text x="160" y="60" class="term-text"><tspan class="term-val">Keung Yat Long (Hercules)</tspan></text>
+
+    <text x="0" y="90" class="term-text"><tspan class="term-key">Primary_Role</tspan></text>
+    <text x="160" y="90" class="term-text"><tspan class="term-highlight">Red Team Pentester & Hardware/AI Dev</tspan></text>
+
+    <text x="0" y="120" class="term-text"><tspan class="term-key">Clearance</tspan></text>
+    <text x="160" y="120" class="term-text"><tspan class="term-val">CISSP | CISA | AWS Certified AI</tspan></text>
+
+    <text x="0" y="150" class="term-text"><tspan class="term-key">Trajectory</tspan></text>
+    <text x="160" y="150" class="term-text"><tspan class="term-val">IT Support -> STEM -> R&D -> Audit -> Red Team</tspan></text>
+
+    <text x="0" y="180" class="term-text"><tspan class="term-key">Offensive_Ops</tspan></text>
+    <text x="160" y="180" class="term-text"><tspan class="term-val">Frida, JADX, Burp Suite, OWASP MASVS, Metasploit</tspan></text>
+
+    <text x="0" y="210" class="term-text"><tspan class="term-key">Systems_Core</tspan></text>
+    <text x="160" y="210" class="term-text"><tspan class="term-val">Python (uv, FastAPI), C/C++, Docker, Linux sk_buff</tspan></text>
+
+    <text x="0" y="240" class="term-text"><tspan class="term-key">Hardware_AI</tspan></text>
+    <text x="160" y="240" class="term-text"><tspan class="term-val">ESP32-S3, Classical ML (KNN, K-Means), MicroPython</tspan></text>
+
+    <text x="0" y="270" class="term-text"><tspan class="term-key">Location</tspan></text>
+    <text x="160" y="270" class="term-text"><tspan class="term-val">Hong Kong (SAR)</tspan></text>
+
+    <text x="0" y="300" class="term-text"><tspan class="term-key">Status</tspan></text>
+    <text x="160" y="300" class="term-text"><tspan class="term-highlight">ONLINE // Active Engagement</tspan><tspan class="cursor" fill="#00FF66"> █</tspan></text>
+
+    <line x1="0" y1="320" x2="550" y2="320" stroke="#30363d" stroke-width="1" />
+  </g>
+</svg>
