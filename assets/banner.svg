@@ -1,94 +1,159 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" height="100%">
   <defs>
     <style>
-      .term-text { font-family: monospace, 'Courier New', Courier; font-size: 13px; fill: #8b949e; }
-      .term-key { fill: #58a6ff; font-weight: bold; }
-      .term-val { fill: #c9d1d9; }
-      .term-highlight { fill: #00FF66; font-weight: bold; }
-      .term-title { font-family: monospace, 'Courier New', Courier; font-size: 13px; fill: #8b949e; }
-      .hud-border { stroke: #30363d; stroke-width: 1; fill: none; }
-      .hud-reticle { stroke: #00FF66; stroke-width: 1.5; fill: none; }
-      .cursor { animation: blink 1s infinite; }
-      @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+      .bg-window { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
+      .bg-bar { fill: #161b22; }
+      .bg-panel { fill: #090d13; stroke: #21262d; stroke-width: 1; }
+      .divider { stroke: #21262d; stroke-width: 1; }
+      .reticle { stroke: #58a6ff; stroke-width: 1.5; fill: none; }
+      .term-title { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 12px; fill: #8b949e; }
+      .panel-hdr { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11px; fill: #58a6ff; font-weight: bold; letter-spacing: 0.5px; }
+      .meta-tag { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 9.5px; fill: #484f58; }
+      .key { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11.5px; fill: #6e7681; }
+      .val { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11.5px; fill: #c9d1d9; text-anchor: end; }
+      .val-hl { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11.5px; fill: #58a6ff; font-weight: bold; text-anchor: end; }
+      .val-green { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11.5px; fill: #3fb950; font-weight: bold; text-anchor: end; }
+      .ascii { font-family: 'Courier New', Courier, monospace; font-size: 5.2px; fill: #8b949e; white-space: pre; letter-spacing: 0.6px; }
+      .badge-bg { fill: #122d1f; stroke: #2ea043; stroke-width: 1; }
+      .badge-txt { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 9.5px; fill: #3fb950; font-weight: bold; }
+      .pulse { animation: blink 1.4s infinite; }
+      @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0.2; } }
     </style>
   </defs>
 
-  <!-- Terminal Window Background -->
-  <rect x="5" y="5" width="950" height="410" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+  <rect x="4" y="4" width="952" height="472" rx="10" class="bg-window" />
+  <path d="M 4 14 Q 4 4 14 4 L 946 4 Q 956 4 956 14 L 956 40 L 4 40 Z" class="bg-bar" />
+  <line x1="4" y1="40" x2="956" y2="40" class="divider" />
 
-  <!-- macOS Top Window Bar -->
-  <rect x="5" y="5" width="950" height="38" rx="10" fill="#161b22" />
-  <rect x="5" y="33" width="950" height="10" fill="#161b22" />
-  <line x1="5" y1="43" x2="955" y2="43" stroke="#30363d" stroke-width="1" />
+  <circle cx="26" cy="22" r="6" fill="#ff5f56" />
+  <circle cx="46" cy="22" r="6" fill="#ffbd2e" />
+  <circle cx="66" cy="22" r="6" fill="#27c93f" />
 
-  <!-- Window Buttons -->
-  <circle cx="28" cy="24" r="6" fill="#ff5f56" />
-  <circle cx="48" cy="24" r="6" fill="#ffbd2e" />
-  <circle cx="68" cy="24" r="6" fill="#27c93f" />
+  <text x="480" y="26" text-anchor="middle" class="term-title">profile.sh --live</text>
 
-  <!-- Header Title -->
-  <text x="480" y="28" text-anchor="middle" class="term-title">hercules@redops: ~/profile.sh (zsh) -- live</text>
+  <!-- LEFT PANEL: VISUAL_REP -->
+  <rect x="24" y="56" width="380" height="398" rx="6" class="bg-panel" />
+  <text x="40" y="80" class="panel-hdr">VISUAL_REP</text>
+  <text x="388" y="80" text-anchor="end" class="meta-tag">RES: 84x52 // HALFTONE</text>
+  <line x1="40" y1="90" x2="388" y2="90" class="divider" />
 
-  <!-- LEFT PANEL: Target Radar Frame -->
-  <rect x="35" y="65" width="300" height="325" rx="4" fill="#090d13" class="hud-border" />
-  
-  <!-- HUD Corner Crosshairs -->
-  <path d="M 45 85 L 45 75 L 55 75" class="hud-reticle" />
-  <path d="M 325 85 L 325 75 L 315 75" class="hud-reticle" />
-  <path d="M 45 370 L 45 380 L 55 380" class="hud-reticle" />
-  <path d="M 325 370 L 325 380 L 315 380" class="hud-reticle" />
+  <path d="M 40 112 L 40 100 L 52 100" class="reticle" />
+  <path d="M 388 112 L 388 100 L 376 100" class="reticle" />
+  <path d="M 40 404 L 40 416 L 52 416" class="reticle" />
+  <path d="M 388 404 L 388 416 L 376 416" class="reticle" />
 
-  <!-- Left Header Status -->
-  <text x="50" y="95" class="term-text" style="font-size: 10px; fill: #58a6ff;">[TARGET.ID: HK-03]</text>
-  <text x="260" y="95" class="term-text" style="font-size: 10px; fill: #00FF66;">SCAN_OK</text>
+    <text x="48" y="104.0" class="ascii" xml:space="preserve">                                                                                    </text>
+    <text x="48" y="109.6" class="ascii" xml:space="preserve">                                                                                    </text>
+    <text x="48" y="115.2" class="ascii" xml:space="preserve">                                                                                    </text>
+    <text x="48" y="120.8" class="ascii" xml:space="preserve">                                                                                    </text>
+    <text x="48" y="126.4" class="ascii" xml:space="preserve">                                                                                    </text>
+    <text x="48" y="132.0" class="ascii" xml:space="preserve">                                   ,:::,   .;+*;:.                                  </text>
+    <text x="48" y="137.6" class="ascii" xml:space="preserve">                               ,+?%SS#@#S??S#@#SS#%*:                               </text>
+    <text x="48" y="143.2" class="ascii" xml:space="preserve">                             :%@@@#S%S##@@@#SS##@#@@#S*.                            </text>
+    <text x="48" y="148.8" class="ascii" xml:space="preserve">                           ,?#@####@###############SS#@#+                           </text>
+    <text x="48" y="154.4" class="ascii" xml:space="preserve">                          +######@@#@@##@@@@@@@###@###S#@%.                         </text>
+    <text x="48" y="160.0" class="ascii" xml:space="preserve">                         :SS####@@@@@@@##SS###@@@@@@@@###@#:                        </text>
+    <text x="48" y="165.6" class="ascii" xml:space="preserve">                        ,S#####@@@@@@#S?*;;+?S#@@@@@#@@@@#@#,                       </text>
+    <text x="48" y="171.2" class="ascii" xml:space="preserve">                       .S#######@@@@#%*;::::;*S#@@@@@@@@@@#@S.                      </text>
+    <text x="48" y="176.8" class="ascii" xml:space="preserve">                       +#############%+;;:::;*S#@@@@@@@@@@@#@*                      </text>
+    <text x="48" y="182.4" class="ascii" xml:space="preserve">                       %#######@@@@###%;::::+S#########@@@@###                      </text>
+    <text x="48" y="188.0" class="ascii" xml:space="preserve">                       *@####@@@S%S####S*::*S##@@@@@@@@@#@@##%                      </text>
+    <text x="48" y="193.6" class="ascii" xml:space="preserve">                        S@##@S?:.,;+????*;:;++?%%S%SSS#@@@@#@;                      </text>
+    <text x="48" y="199.2" class="ascii" xml:space="preserve">                        :#@@?   :+++SS?+:..,;+++?%%*?*+*S@#@S                       </text>
+    <text x="48" y="204.8" class="ascii" xml:space="preserve">                         +*#:  ....::;;,...:;+;+*??+??+;+#@#,                       </text>
+    <text x="48" y="210.4" class="ascii" xml:space="preserve">                        .: *,    ....... ..,;+;:::::::;;;S%+                        </text>
+    <text x="48" y="216.0" class="ascii" xml:space="preserve">                         ,;*,     ..,,,....:;++;::,,,:::+%++                        </text>
+    <text x="48" y="221.6" class="ascii" xml:space="preserve">                          ,,,      .,,,,;;;+??++::::::;;*?*,                        </text>
+    <text x="48" y="227.2" class="ascii" xml:space="preserve">                            .       ...,::+;++;:::::::;++;,                         </text>
+    <text x="48" y="232.8" class="ascii" xml:space="preserve">                                    :+;;++*????*+:::;:;;.                           </text>
+    <text x="48" y="238.4" class="ascii" xml:space="preserve">                                   .,,,,,;+++**?+;;;;;;                             </text>
+    <text x="48" y="244.0" class="ascii" xml:space="preserve">                                ...   ..,:;;;;;;;;;+++.                             </text>
+    <text x="48" y="249.6" class="ascii" xml:space="preserve">                                .,,.  ..,::::;;;;+**?;                              </text>
+    <text x="48" y="255.2" class="ascii" xml:space="preserve">                                 ..,,,,:;;++++**????*,..                            </text>
+    <text x="48" y="260.8" class="ascii" xml:space="preserve">                                 .....,:;*????????*+, ,#+                           </text>
+    <text x="48" y="266.4" class="ascii" xml:space="preserve">                                .: ....,;++*****+;,  ,%@@%,                         </text>
+    <text x="48" y="272.0" class="ascii" xml:space="preserve">                               ..%, ...,;++++;;,    ;#@##@@?,                       </text>
+    <text x="48" y="277.6" class="ascii" xml:space="preserve">                           .:+%* +S:...,:;;:,      *@@#@@##@#%+,                    </text>
+    <text x="48" y="283.2" class="ascii" xml:space="preserve">                        ,+%SSS@+  :*+:,::,.      .%@##@@@@@#@@@@S?;,                </text>
+    <text x="48" y="288.8" class="ascii" xml:space="preserve">                   .:+%#@@#S%##+    :;;.        ,S@#@@@@@@@@####@@@#S*:.            </text>
+    <text x="48" y="294.4" class="ascii" xml:space="preserve">             .,:+?S#@@@#SSSS#@#,  :?%?%*.      ,#@#@@@@@@@@@@@@@####@@#S?+,         </text>
+    <text x="48" y="300.0" class="ascii" xml:space="preserve">           .?S##@@@@#########@?  ;SS#@@@#?.   .S@#@@@@@@@@@@@@@@@@@@#######S?+:.    </text>
+    <text x="48" y="305.6" class="ascii" xml:space="preserve">          :#@#######@########@: :;*####@#%+. .S@#@@@@@@@@@@@@@@@@@@@@@@@###@@@@#?   </text>
+    <text x="48" y="311.2" class="ascii" xml:space="preserve">         .##################@%    +###@%:.  .S@#@@@@@@@@@@@@@@@@@@@@@@@@#@@####@@%  </text>
+    <text x="48" y="316.8" class="ascii" xml:space="preserve">         +@################@@+    S###@*    S@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##@: </text>
+    <text x="48" y="322.4" class="ascii" xml:space="preserve">         %#################@S,   ?##@#@?.  %@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##? </text>
+    <text x="48" y="328.0" class="ascii" xml:space="preserve">        ,#@################@+   ?#####@*  %@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@S </text>
+    <text x="48" y="333.6" class="ascii" xml:space="preserve">        +###S###########S#@#,  +######@+ ?@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@#.</text>
+    <text x="48" y="339.2" class="ascii" xml:space="preserve">       .SS@#S#############@S  ,########,*@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#,</text>
+    <text x="48" y="344.8" class="ascii" xml:space="preserve">       :#S##S##S##########@?  ?#######S?@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@:</text>
+    <text x="48" y="350.4" class="ascii" xml:space="preserve">       *####S#############@* ,#########@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@?</text>
+    <text x="48" y="356.0" class="ascii" xml:space="preserve">      ,###@@#S############@* ?########@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@#</text>
+    <text x="48" y="361.6" class="ascii" xml:space="preserve">      ;@##@@#S############@*,#########@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@#</text>
+    <text x="48" y="367.2" class="ascii" xml:space="preserve">      ,#@#@@@#############@??@#######@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@S</text>
+    <text x="48" y="372.8" class="ascii" xml:space="preserve">      %##@@@@#############@S#########@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@*</text>
+    <text x="48" y="378.4" class="ascii" xml:space="preserve">     ;#S#@@@@#############@@@#######@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@?</text>
+    <text x="48" y="384.0" class="ascii" xml:space="preserve">    .S##@@@@@@######@@####@@@@@####@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#</text>
+    <text x="48" y="389.6" class="ascii" xml:space="preserve">    *#S########SS###################################################################</text>
 
-  <!-- Radar Matrix -->
-  <g transform="translate(50, 120)">
-    <circle cx="117" cy="90" r="70" fill="none" stroke="#21262d" stroke-width="1.5" stroke-dasharray="4,4" />
-    <circle cx="117" cy="90" r="45" fill="none" stroke="#30363d" stroke-width="1" />
-    <circle cx="117" cy="90" r="20" fill="none" stroke="#00FF66" stroke-width="1" opacity="0.6" />
-    <line x1="117" y1="10" x2="117" y2="170" stroke="#21262d" stroke-width="1" />
-    <line x1="37" y1="90" x2="197" y2="90" stroke="#21262d" stroke-width="1" />
-    <text x="117" y="94" text-anchor="middle" class="term-highlight" style="font-size: 11px;">TARGET LOCKED</text>
+  <text x="48" y="438" class="meta-tag">SYS_IDENT: HERCULES_KEUNG // HK-03</text>
+  <text x="380" y="438" text-anchor="end" class="meta-tag" style="fill:#3fb950;">LOCKED</text>
+
+  <!-- RIGHT PANEL: SYSTEM_INFO -->
+  <rect x="420" y="56" width="516" height="398" rx="6" class="bg-panel" />
+  <text x="440" y="80" class="panel-hdr">SYSTEM_INFO</text>
+  <circle cx="805" cy="76" r="3.5" fill="#f85149" class="pulse" />
+  <text x="814" y="80" class="meta-tag" style="fill:#f85149; font-weight:bold;">LIVE</text>
+  <rect x="846" y="67" width="72" height="18" rx="3" fill="#1f2937" stroke="#30363d" stroke-width="1" />
+  <text x="882" y="79" text-anchor="middle" class="meta-tag" style="fill:#58a6ff;">EXEC: ZSH</text>
+  <line x1="440" y1="90" x2="918" y2="90" class="divider" />
+
+  <g>
+    <text x="440" y="114" class="key">Subject</text>
+    <text x="918" y="114" class="val">Hercules KEUNG</text>
+
+    <text x="440" y="136" class="key">Role</text>
+    <text x="918" y="136" class="val-hl">Red Team Pentester -- Hardware &amp; AI Builder</text>
+
+    <text x="440" y="158" class="key">Origin</text>
+    <text x="918" y="158" class="val">Hong Kong (SAR)</text>
+
+    <text x="440" y="180" class="key">Clearance</text>
+    <text x="918" y="180" class="val-green">CISSP -- CISA -- AWS AI Practitioner</text>
+
+    <text x="440" y="202" class="key">Trajectory</text>
+    <text x="918" y="202" class="val">IT Support &gt; STEM &gt; R&amp;D &gt; IT Audit &gt; Red Team</text>
+
+    <text x="440" y="224" class="key">Status</text>
+    <text x="918" y="224" class="val">Breaking -- Building -- Automating</text>
+
+    <text x="440" y="246" class="key">Core.Offensive</text>
+    <text x="918" y="246" class="val">Frida -- JADX -- Burp Suite -- Metasploit -- MASVS</text>
+
+    <text x="440" y="268" class="key">Core.Lang</text>
+    <text x="918" y="268" class="val">Python (uv) -- C/C++ -- Bash -- SQL</text>
+
+    <text x="440" y="290" class="key">Core.Backend</text>
+    <text x="918" y="290" class="val">FastAPI -- Flask -- SQLAlchemy -- Docker -- langgraph</text>
+
+    <text x="440" y="312" class="key">Core.AI_Data</text>
+    <text x="918" y="312" class="val"> LLM -- RAG --PyTorch -- Scikit-Learn -- Ollama -- pgvector</text>
+
+    <text x="440" y="334" class="key">Core.Hardware</text>
+    <text x="918" y="334" class="val">ESP32-S3 -- MicroPython -- OpenCV -- 3D CAD</text>
+
+    <text x="440" y="356" class="key">Grid.GitHub</text>
+    <text x="918" y="356" class="val">github.com/Hercules03</text>
+
+    <text x="440" y="378" class="key">Grid.LinkedIn</text>
+    <text x="918" y="378" class="val">in/hercules-keung-704b28239</text>
+
+    <text x="440" y="400" class="key">Grid.Mail</text>
+    <text x="918" y="400" class="val">herculeskeung@gmail.com</text>
   </g>
 
-  <!-- Left Footer -->
-  <text x="50" y="335" class="term-text" style="font-size: 10px; fill: #8b949e;">SECTOR: OFFENSIVE ENGAGEMENT</text>
-  <text x="50" y="355" class="term-text" style="font-size: 10px; fill: #00FF66;">INTEGRITY: 100% VERIFIED</text>
+  <line x1="440" y1="414" x2="918" y2="414" class="divider" />
 
-  <!-- RIGHT PANEL: Telemetry Spec -->
-  <g transform="translate(365, 75)">
-    <text x="0" y="20" class="term-key" style="font-size: 14px;">[ SYSTEM_SPECS AND TELEMETRY ]</text>
-    <text x="400" y="20" class="term-highlight" style="font-size: 11px;">AUTH: ROOT</text>
-    <line x1="0" y1="30" x2="550" y2="30" stroke="#30363d" stroke-width="1" />
-
-    <text x="0" y="60" class="term-text"><tspan class="term-key">Subject</tspan></text>
-    <text x="160" y="60" class="term-text"><tspan class="term-val">Hercules KEUNG</tspan></text>
-
-    <text x="0" y="90" class="term-text"><tspan class="term-key">Primary_Role</tspan></text>
-    <text x="160" y="90" class="term-text"><tspan class="term-highlight">Red Team Pentester / Hardware / AI Dev</tspan></text>
-
-    <text x="0" y="120" class="term-text"><tspan class="term-key">Clearance</tspan></text>
-    <text x="160" y="120" class="term-text"><tspan class="term-val">CISSP | CISA | AWS Certified AI</tspan></text>
-
-    <text x="0" y="150" class="term-text"><tspan class="term-key">Trajectory</tspan></text>
-    <text x="160" y="150" class="term-text"><tspan class="term-val">IT Support --> STEM --> R/D --> Audit --> Red Team</tspan></text>
-
-    <text x="0" y="180" class="term-text"><tspan class="term-key">Offensive_Ops</tspan></text>
-    <text x="160" y="180" class="term-text"><tspan class="term-val">Frida, JADX, Burp Suite, OWASP MASVS, Metasploit</tspan></text>
-
-    <text x="0" y="210" class="term-text"><tspan class="term-key">Systems_Core</tspan></text>
-    <text x="160" y="210" class="term-text"><tspan class="term-val">Python (uv, FastAPI), C/C++, Docker, Linux sk_buff</tspan></text>
-
-    <text x="0" y="240" class="term-text"><tspan class="term-key">Hardware_AI</tspan></text>
-    <text x="160" y="240" class="term-text"><tspan class="term-val">Agentic AI, LLM, RAG, Pytorch, ESP32-S3</tspan></text>
-
-    <text x="0" y="270" class="term-text"><tspan class="term-key">Location</tspan></text>
-    <text x="160" y="270" class="term-text"><tspan class="term-val">Hong Kong (SAR)</tspan></text>
-
-    <text x="0" y="300" class="term-text"><tspan class="term-key">Status</tspan></text>
-    <text x="160" y="300" class="term-text"><tspan class="term-highlight">ONLINE // Active Engagement</tspan><tspan class="cursor" fill="#00FF66"> █</tspan></text>
-
-    <line x1="0" y1="320" x2="550" y2="320" stroke="#30363d" stroke-width="1" />
-  </g>
+  <rect x="440" y="424" width="164" height="20" rx="4" class="badge-bg" />
+  <circle cx="452" cy="434" r="3" fill="#3fb950" class="pulse" />
+  <text x="462" y="438" class="badge-txt">ALL SYSTEMS NOMINAL</text>
 </svg>

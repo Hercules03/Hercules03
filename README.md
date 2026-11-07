@@ -9,97 +9,6 @@
   <img src="https://img.shields.io/badge/Location-Hong_Kong-0F172A?style=for-the-badge&logo=google-maps&logoColor=white" alt="Location" />
 </p>
 
-</div>
-
----
-
-<details>
-<summary><b>System Scan: Halftone ASCII Identity Buffer</b></summary>
-
-```text
-@@@&@&@@&@&@&&&&@@&@@&&&&&&&&@&&&&&&@@&&@&@@@@&@&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@&@@&@@&@@&&@&@@@@&@&@@@@@@@@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-&@&@&&&&&@&@@@@@@@@@@@@@@@&&&@@@&@@@@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-&@@@@@&@@@&&&@@@@@@@&@@@@@&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@&@&&@&@@&&&@@@@@@@@@@@@@@@@@@@@@@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@&&&@@@@@@@@@@@@@@@@@@@@@&&&%%&@&##%%&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&&%%%#%&@@@&%&%%&@%&%&@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%&&%&@&@&@@&@%&&&#&&##%&&@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@&##@@%&&@@@&@@@@@@@&&@&@@&&%%@&@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@&#&&%&&&@@@@&%%#((#%&@&&&@@&&@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@%%&#%%&&@&&&%#(/***/(#&&&&@@@@&@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@&%%&%&@&&&&&&%(/*****/#%@@@@@@@@@&@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@&&&@%&&@@&&&&#&#*****&&@&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@%&@&@&@&(##&&&%%/*(&(#&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@&&@&*.,*(&&&&//*,,*//(//////(%@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@,%%,..,,,,*//**,,,*///(((###///@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@/,,,.....,,,,,.,,,*//*********/@(@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@,//,.....,,,**..,**/*/********/(/@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@,,,......,,,,***//(/***,****/(/(@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@,......***//((((//******/(%@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@....,,,,.,**///(///*//*/@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&,,,..,,,***/////////(@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@,,*,.,,,****////((#(/@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&,,,,,*/(########(((..%@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.,,,,.,*//(((((((....&&&&@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%.%,,,,,*//////.....,&&@&&&&@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#( .%,,,,****  .....&&&&&&&&&%%%@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@%%%%###&.   .(/**     ...*&&&&&&&&&&@&&&%%%&@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@#%%%%%%###%&&.   &##%     ...#&&&&&&&&&&&@&&&&&%%%%%%@@@@@@@@@@
-@@@@@@@@@@@@%%%%%%%%%&&%%%%%&/  (##%&&&@    .%&&&&&&&&&&@&&&&&&&&&&&%%%%%%@@@@@@
-@@@@@@@@@@%@%%%%%%%&&%%%%%%&&, **##&@@&#*,,.&&&&&&&&&&@&&&&&&&&&&&&&&&%&&&&&&&@@
-@@@@@@@@@@&%%%%%%%%%%%%%%%&@(    %%&@&,,.. %&&&&&&&&&&&&@&&&&&&&&&&&&&&&&&@@@@&@
-@@@@@@@@@#&%%%%%%%%%%%%%%%&&*.  /%%&@&,.  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&@@@@&&&@
-@@@@@@@@@%&%%%%%%%%%%%%%%%@(   #%%%&&&,. &&&&&&&&&&&&@&&&&&&&&&&&&&&&@@@@&&&&@@@
-@@@@@@@@%%&%%%%%%%%%%%%%%&@*  %#%%&&&&, &&&&&&&&&&&@&&&&&&&&&&&&&&&&&&@&&&&@@&&&
-@@@@@@@@#%&%%%%%%%%%%%%%%&&. .%%%&%%&#.&&&&&&&&&&&@&&&&&&&&&&&&&&&&@&@@@@@@&&&@&
-@@@@@@@&%%%@%%%%%%%%%%%%%&& .%%%%%%%%/%&&&&&&&&&@&&&&&&&&&&&&&&&&&&&&&&&@@@@@@&@
-@@@@@@@#%%&&##%%%%%%%%%%%&%./%%%#%%%@&&&&&&&&&&@&&&&&&&&&&&&@@@&&&&&&&&&&@@@@@@&
-@@@@@@@%%%&&&%%%%%%%%%%%%&&,%%%%&%%&&&&&&&&&&@&&&&&&&&@&&&&&@@&&&&&&&&@&@&@&@@&@
-@@@@@@@%&&&&@%%%%%%%%%%%%&@*%%%%&%%&&&&&&&&&@&&&&&&&@&&&&&&@@@&&&&&&&&@@@@&@@&@&
-@@@@@@%#%%&&@&%%%%%%%%%%%&@&%%%%%&%&&&&&&&@&&&&&&&&@@@&&@&@@@@&&&&&&&&&@&@@@@@@&
-@@@@@%%%%&&&&@%%%%%%%%%%%&@@&%&%%%&&&&&&&@&&&&&&&&&&&&@@@@@@@@@&&&&&&&@&&@@@@@@@
-@@@@@#%%&&&&@@&%%%%%%&%%%&@@&&&%%&&&&&&@@&&&&&&&&&&@&&@@@@@@@@&&&&&&&&&@@@@@@&@@
-```
-
-</details>
-
----
-
-## Career Trace & Evolution
-
-From foundational infrastructure and algorithmic pedagogy to enterprise risk governance and adversarial offensive security.
-
-```mermaid
-flowchart LR
-    A["IT Support<br/><b>Infrastructure & Ops</b>"] --> B["STEM Coach<br/><b>Algorithmic Pedagogy</b>"]
-    B --> C["R&D & Robotics<br/><b>Embedded & IoT Systems</b>"]
-    C --> D["IT Audit<br/><b>Risk & ISACA Governance</b>"]
-    D --> E["Red Team Pentester<br/><b>Adversarial Simulation</b>"]
-
-    style A fill:#0d1117,stroke:#30363d,stroke-width:1px,color:#c9d1d9
-    style B fill:#0d1117,stroke:#30363d,stroke-width:1px,color:#c9d1d9
-    style C fill:#0d1117,stroke:#30363d,stroke-width:1px,color:#c9d1d9
-    style D fill:#0d1117,stroke:#30363d,stroke-width:1px,color:#c9d1d9
-    style E fill:#161b22,stroke:#00FF66,stroke-width:2px,color:#00FF66
-```
-
----
-
-## Operational Arsenal & Tech Stack
-
-```text
-[OFFENSIVE & SECURITY]
-|-- Mobile Assessment -- Frida -- JADX -- ADB -- mitmproxy -- OWASP MASVS
-|-- Network & Host    -- Kali Linux -- Burp Suite -- Metasploit -- Wireshark -- Nmap
-`-- Low-Level/Kernel  -- Linux sk_buff -- Packet Filtering -- VMware Workstation
-
-[SYSTEMS & INTELLIGENCE]
-|-- Core Development  -- Python (uv / FastAPI / SQLAlchemy) -- C/C++ -- Bash
-|-- AI & Data Science -- Classical ML (Scikit-Learn / KNN / K-Means) -- Pandas -- OpenCV
-`-- Embedded / IoT    -- ESP32-S3 -- MicroPython -- ROS -- FreeRTOS -- Hardware Modding
-```
-
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
@@ -118,11 +27,7 @@ flowchart LR
 * **Target Vectors**: Android application reverse engineering, dynamic memory hook injections via Frida, and TLS unpinning bypasses.
 * **Security Automation**: LLM-assisted penetration testing tooling, automated vulnerability verification pipelines, and network packet monitoring micro-labs.
 
-### 02. AI-Driven Edge & Educational Robotics (ORZAI / AICube)
-* **Architecture**: Modular 3D-printed robotics platform powered by an **ESP32-S3** microcontroller.
-* **Software Core**: Block-based machine learning compiler, interactive simulation environments, and local AI agent dialogues.
-
-### 03. High-Performance Tooling & Workflows
+### 02. High-Performance Tooling & Workflows
 * **Microservices**: High-performance Python package architectures utilizing ultra-fast `uv` workspace environments.
 * **Autonomous Workflows**: Mission Control dashboards enforcing pre-development architecture gates and event-driven automation bots.
 
