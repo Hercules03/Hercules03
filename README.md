@@ -2,7 +2,7 @@
 
 <img src="./assets/banner.svg" alt="Mission Terminal Profile" width="100%">
 
-# Hercules - Red Team & Pentester
+# Hercules - Red Team Pentester
 
 <p align="center">
   <img src="https://img.shields.io/badge/CISSP-Certified-00E676?style=for-the-badge&logo=isc2&logoColor=black" alt="CISSP" />
