@@ -133,10 +133,10 @@
     <text x="918" y="268" class="val">Python (uv) -- C/C++ -- Bash -- SQL</text>
 
     <text x="440" y="290" class="key">Core.Backend</text>
-    <text x="918" y="290" class="val">FastAPI -- Flask -- SQLAlchemy -- Docker -- langgraph</text>
+    <text x="918" y="290" class="val">FastAPI -- Flask -- SQLAlchemy -- Docker </text>
 
     <text x="440" y="312" class="key">Core.AI_Data</text>
-    <text x="918" y="312" class="val"> LLM -- RAG --PyTorch -- Scikit-Learn -- Ollama -- pgvector</text>
+    <text x="918" y="312" class="val"> LLM -- RAG -- langgraph -- pgvector -- Ollama </text>
 
     <text x="440" y="334" class="key">Core.Hardware</text>
     <text x="918" y="334" class="val">ESP32-S3 -- MicroPython -- OpenCV -- 3D CAD</text>
