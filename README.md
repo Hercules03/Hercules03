@@ -59,6 +59,6 @@
 [EOF] - Initiating secure session logout... Connection verified.
 ```
 
-**[LinkedIn](https://www.linkedin.com/in/hercules-keung-704b28239/)** | **[Email](mailto:herculeskeung@gmail.com)** | **[GitHub](https://github.com/Hercules03)**
+**[LinkedIn](https://linkedin.com/in/hercules-keung)** | **[Email](mailto:herculeskeung@gmail.com)** | **[GitHub](https://github.com/Hercules03)**
 
 </div>
